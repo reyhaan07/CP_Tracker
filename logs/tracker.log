@@ -1,0 +1,97 @@
+2026-07-15 17:49:31 | INFO     | cp-tracker.main | ============================================================
+2026-07-15 17:49:31 | INFO     | cp-tracker.main | CP Tracker run started (execution log #1)
+2026-07-15 17:49:31 | INFO     | cp-tracker.leetcode | Fetching recent accepted submissions for LeetCode user Reyhaan-S
+2026-07-15 17:49:31 | INFO     | cp-tracker.leetcode | LeetCode returned 20 recent accepted submissions
+2026-07-15 17:49:33 | INFO     | cp-tracker.leetcode | LeetCode: 18 new problems detected
+2026-07-15 17:49:33 | INFO     | cp-tracker.codeforces | Fetching recent submissions for Codeforces handle Reyhaan
+2026-07-15 17:49:34 | INFO     | cp-tracker.codeforces | Codeforces returned 50 recent submissions
+2026-07-15 17:49:34 | INFO     | cp-tracker.codeforces | Codeforces: 21 new problems detected
+2026-07-15 17:49:34 | INFO     | cp-tracker.atcoder | Fetching AtCoder submissions for Reyhaan from_second=0
+2026-07-15 17:49:34 | INFO     | cp-tracker.atcoder | AtCoder returned 62 submissions in this page
+2026-07-15 17:49:35 | INFO     | cp-tracker.atcoder | Loaded 5031 AtCoder problem difficulty models
+2026-07-15 17:49:35 | INFO     | cp-tracker.atcoder | AtCoder: 25 new problems detected
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [LeetCode] Subsets (Medium)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [LeetCode] Permutations (Medium)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [LeetCode] Letter Combinations of a Phone Number (Medium)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [LeetCode] Jump Game (Medium)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [LeetCode] Search Insert Position (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [LeetCode] Course Schedule (Medium)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [LeetCode] Longest Common Subsequence (Medium)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [LeetCode] Power of Four (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [LeetCode] Add Binary (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [LeetCode] Valid Palindrome (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [LeetCode] Excel Sheet Column Title (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [LeetCode] Isomorphic Strings (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [LeetCode] Valid Anagram (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [LeetCode] Number of 1 Bits (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [LeetCode] Single Number (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [LeetCode] Middle of the Linked List (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [LeetCode] Linked List Cycle (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [LeetCode] Linked List Cycle II (Medium)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] Way Too Long Words (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] Team (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] Sieve of Erato67henes (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] Bit++ (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] Next Round (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] Domino piling (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] ABAB Construction (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] Beautiful Matrix (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] Petya and Strings (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] Heapify 1 (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] Specialty String (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] Deletion Sort (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] Passing the Ball (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] Word Capitalization (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] Bear and Big Brother (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] Elephant (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] Stones on the Table (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] Odd One Out (Unknown)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] The 67th 6-7 Integer Problem (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] Word (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [Codeforces] Translation (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC440 C (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC443 A (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC440 A (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC440 B (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC444 A (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC444 B (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC437 C (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC450 A (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC450 B (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC450 C (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC451 A (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC452 A (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC452 B (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC453 A (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC453 B (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC453 C (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC453 D (Medium)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC454 A (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC454 B (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC465 A (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC465 B (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC466 A (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ABC466 B (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ARC224 A (Easy)
+2026-07-15 17:49:35 | INFO     | cp-tracker.main | NEW  [AtCoder] ARC224 B (Easy)
+2026-07-15 17:49:36 | INFO     | cp-tracker.main | Sheet state: last COUNT = 74, 100 existing links
+2026-07-15 17:49:37 | ERROR    | cp-tracker.sheets | Sheets append failed: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/1VKV9kIzNWpXArqZXlg6xTK3OgvFiqumf9UCqlna2iJA/values/REYHAAN%20S_IT_ENGG%21A%3AG:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json returned "You are trying to edit a protected cell or object. Please contact the spreadsheet owner to remove protection if you need to edit.". Details: "You are trying to edit a protected cell or object. Please contact the spreadsheet owner to remove protection if you need to edit.">
+2026-07-15 17:49:37 | ERROR    | cp-tracker.main | Sheet sync failed: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/1VKV9kIzNWpXArqZXlg6xTK3OgvFiqumf9UCqlna2iJA/values/REYHAAN%20S_IT_ENGG%21A%3AG:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json returned "You are trying to edit a protected cell or object. Please contact the spreadsheet owner to remove protection if you need to edit.". Details: "You are trying to edit a protected cell or object. Please contact the spreadsheet owner to remove protection if you need to edit.">
+Traceback (most recent call last):
+  File "/home/runner/work/CP_Tracker/CP_Tracker/main.py", line 181, in main
+    appended = sync_to_sheet()
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/CP_Tracker/CP_Tracker/main.py", line 147, in sync_to_sheet
+    appended = client.append_rows(rows)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/CP_Tracker/CP_Tracker/sheets/google_sheets.py", line 142, in append_rows
+    ).execute()
+      ^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/1VKV9kIzNWpXArqZXlg6xTK3OgvFiqumf9UCqlna2iJA/values/REYHAAN%20S_IT_ENGG%21A%3AG:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json returned "You are trying to edit a protected cell or object. Please contact the spreadsheet owner to remove protection if you need to edit.". Details: "You are trying to edit a protected cell or object. Please contact the spreadsheet owner to remove protection if you need to edit.">
+2026-07-15 17:49:37 | INFO     | cp-tracker.main | Run finished: status=partial new_problems=64 rows_appended=0
+2026-07-15 17:49:37 | INFO     | cp-tracker.main | ============================================================
