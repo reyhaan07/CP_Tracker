@@ -1,0 +1,14 @@
+# Secrets — never commit credentials
+.env
+service-account.json
+*.json.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# NOTE: storage/tracker.db and logs/ are intentionally NOT ignored.
+# The SQLite database is the tracker's memory between GitHub Actions runs
+# and must be committed by the workflow.

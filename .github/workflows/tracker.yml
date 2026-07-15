@@ -1,0 +1,74 @@
+name: CP Tracker
+
+on:
+  schedule:
+    # Every 15 minutes (UTC). Note: GitHub schedules are best-effort and may
+    # be delayed a few minutes under load — the tracker's cursor + dedupe
+    # design means delayed runs never lose or duplicate data.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}   # allow manual runs from the Actions tab
+
+# Prevent two runs from racing on the same DB commit.
+concurrency:
+  group: cp-tracker
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # required to commit the updated SQLite DB + logs
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Full ref so the commit/push below works cleanly.
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tracker
+        env:
+          LEETCODE_USERNAME: ${{ secrets.LEETCODE_USERNAME }}
+          CODEFORCES_HANDLE: ${{ secrets.CODEFORCES_HANDLE }}
+          ATCODER_USERNAME: ${{ secrets.ATCODER_USERNAME }}
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+          GOOGLE_SHEET_NAME: ${{ secrets.GOOGLE_SHEET_NAME }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: python main.py
+
+      - name: Upload run logs as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tracker-logs-${{ github.run_id }}
+          path: logs/
+          retention-days: 14
+          if-no-files-found: ignore
+
+      - name: Commit updated database and logs
+        if: always()
+        run: |
+          git config user.name  "cp-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add storage/tracker.db logs/ || true
+          if git diff --cached --quiet; then
+            echo "No database changes to commit."
+          else
+            git commit -m "chore: update tracker state [skip ci] ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            # Rebase-and-retry in case another push landed meanwhile.
+            for i in 1 2 3; do
+              git push && break
+              git pull --rebase && sleep 2
+            done
+          fi
